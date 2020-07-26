@@ -1,0 +1,39 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cnvs {
+    width: 800px;
+    height: 200px;
+}
+#tble {
+    width: 800px;
+    height: 200px;
+}
+textarea{
+    margin-top: 15px;
+    width: 50%;
+}
+input{
+    height: 25px;
+}
+p{
+    height: 10px;
+    font-weight: bold;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
